@@ -8,3 +8,7 @@ CSS
     color: white;
     box-sizing: border-box;
 }
+
+.card-img-top {
+    height: 6rem;
+}
