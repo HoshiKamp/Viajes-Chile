@@ -10,8 +10,9 @@
     <title>Viajes Chile</title>
 </head>
   <body>
+    
 <!-- barra navegacion -->
-<nav class="navbar navbar-expand-lg navbar-dark fixed-top" data-bs-theme="dark">
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-info" data-bs-theme="dark">
     <div class="container">
       <a class="navbar-brand" href="#"><img src="/assets/img/viajes.svg" alt="" width="30" height="24">Viajes Chile</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -20,16 +21,16 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link" href="#">Inicio</a>
+            <a class="nav-link text-light" href="#carouselExample">Inicio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="">¿Quiene somos?</a>
+            <a class="nav-link text-light" href="#¿Quienes somos?">¿Quienes somos?</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Destacados</a>
+            <a class="nav-link text-light" href="#Destacados">Destacados</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contacto</a>
+            <a class="nav-link text-light" href="#Contacto">Contacto</a>
           </li>
         </ul>
       </div>
@@ -37,7 +38,7 @@
 </nav>
 
 <!-- Hero Section -->
-<div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+<div id="carouselExample" class="carousel slide .col-sm-2 .col-md-6 .col-lg-12" data-bs-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active">
         <img src="/assets/img/carousel1.jpg" class="d-block w-100" alt="...">
@@ -60,64 +61,70 @@
 </div>
 
 <!-- primera seccion Quienes Somos-->
-<section class="¿quiene somos? bg-black">
-    <h2 class="text-center">¿QUIENES SOMOS?</h2>
+<section class="bg-black" id="¿Quienes somos?">
+    <h2 class="text-center text-light py-5">¿QUIENES SOMOS?</h2>
+    <hr class="text-light">
     <div class="container">
         <div class="row">
-              <div class="col text-center">
+              <div class="text-center col-12 col-sm-12 col-md-6 col-lg-4 mb-5">
                   <i class="fa-solid fa-plane fa-2x bg-info d-md-block"></i>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis vitae sed, dicta necessitatibus voluptatum doloremque voluptatem rem! Quibusdam dolores, consequuntur maiores iusto quod et fugit necessitatibus officia! Labore, commodi optio!</p>
+                  <p class="text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis vitae sed, dicta necessitatibus voluptatum doloremque voluptatem rem! Quibusdam dolores, consequuntur maiores iusto quod et fugit necessitatibus officia! Labore, commodi optio!</p>
               </div>
-              <div class="col text-center">
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis vitae sed, dicta necessitatibus voluptatum doloremque voluptatem rem! Quibusdam dolores, consequuntur maiores iusto quod et fugit necessitatibus officia! Labore, commodi optio!</p>
+              <div class="text-center col-12 col-sm-12 col-md-6 col-lg-4 mb-5">
+                  <p class="text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis vitae sed, dicta necessitatibus voluptatum doloremque voluptatem rem! Quibusdam dolores, consequuntur maiores iusto quod et fugit necessitatibus officia! Labore, commodi optio!</p>
                   <i class="fa-solid fa-mountain fa-2x bg-info d-md-block"></i>
               </div>
-              <div class="col text-center">
+              <div class="text-center col-12 col-sm-12 col-md-6 col-lg-4 mb-5">
                   <i class="fa-solid fa-route fa-2x bg-info d-md-block"></i>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis vitae sed, dicta necessitatibus voluptatum doloremque voluptatem rem! Quibusdam dolores, consequuntur maiores iusto quod et fugit necessitatibus officia! Labore, commodi optio!</p>
+                  <p class="text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis vitae sed, dicta necessitatibus voluptatum doloremque voluptatem rem! Quibusdam dolores, consequuntur maiores iusto quod et fugit necessitatibus officia! Labore, commodi optio!</p>
               </div>
         </div>      
       </div>
 </section>
 
 <!-- segunda seccion Destacados-->
-<section class="destacados bg-black">
+<section class="bg-black" id="Destacados">
     <div class="container">
         <div class="row">
-            <h2 class="text-center">DESTACADOS</h2>
+            <h2 class="text-center text-light py-5">DESTACADOS</h2>
+            <hr class="text-light">
             <!-- card 1 -->
-            <div class="col">
-                <div class="card p-0" style="width: 18rem;">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb-5">
+                <div class="card p-0">
                     <img src="/assets/img/card1.jpg" class="card-img-top" alt="...">
                     <div class="card-body bg-info">
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <h5 class="text-light">Magni id, tempora culpa</h5>
+                    <p class="card-text text-light">recusandae sequi necessitatibus cupiditate esse iusto expedita in provident, aspernatur at delectus omnis voluptatem. Rem, corporis!</p>
                     </div>
                 </div>
             </div>
             <!-- card 2 -->
-            <div class="col">
-                <div class="card p-0" style="width: 18rem;">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb-5">
+                <div class="card p-0">
                     <img src="/assets/img/card2.jpg" class="card-img-top" alt="...">
                     <div class="card-body bg-info">
-                    <p class="card-text ">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <h5 class="text-light">Consequatur voluptates</h5>
+                    <p class="card-text text-light ">recusandae sequi necessitatibus cupiditate esse iusto expedita in provident, aspernatur at delectus omnis voluptatem. Rem, corporis!</p>
                     </div>
                 </div>
             </div>
             <!-- card 3 -->
-            <div class="col">
-                <div class="card p-0 bg-info" style="width: 18rem;">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb-5">
+                <div class="card p-0">
                     <img src="/assets/img/card3.jpg" class="card-img-top" alt="...">
                     <div class="card-body bg-info">
-                    <p class="card-text ">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <h5 class="text-light">Amet consectetur adi</h5>
+                    <p class="card-text text-light">recusandae sequi necessitatibus cupiditate esse iusto expedita in provident, aspernatur at delectus omnis voluptatem. Rem, corporis!</p>
                     </div>
                 </div>
             </div>    
             <!-- card 4 -->
-            <div class="col">
-                <div class="card p-0" style="width: 18rem;">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb-5">
+                <div class="card p-0">
                     <img src="/assets/img/card4.jpg" class="card-img-top" alt="...">
                     <div class="card-body bg-info">
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <h5 class="text-light">Lorem ipsum dolor sit</h5>
+                    <p class="card-text text-light">recusandae sequi necessitatibus cupiditate esse iusto expedita in provident, aspernatur at delectus omnis voluptatem. Rem, corporis!</p>
                     </div>
                 </div>
             </div>
@@ -126,26 +133,42 @@
 </section>
 
 <!-- tercera seccion Contacto-->
-<section class="bg-black">
-    <div class="container" id="contacto">
-        <h2 class="text-center">CONTACTO</h2>
+<section class="bg-black" id="Contacto">
+    <div class="container">
+        <h2 class="text-center text-light py-4">CONTACTO</h2>
+        <hr class="text-light">
     <div class="mb-3">
-        <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+        <label for="exampleFormControlInput1" class="form-label text-light">Nombre</label>
         <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
     </div>
     <div class="mb-3">
-        <label for="exampleFormControlInput1" class="form-label">Asunto</label>
+        <label for="exampleFormControlInput1" class="form-label text-light">Asunto</label>
         <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
     </div>
     <div class="mb-3">
-        <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+        <label for="exampleFormControlTextarea1" class="form-label text-light">Mensaje</label>
         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
     </div>
-    <div class="d-grid gap-2 d-md-block">
+    <div class="d-grid gap-2 d-md-block pb-5">
         <button class="btn btn-primary" type="button">Enviar</button>
     </div>
     </div>
 </section>    
+
+<!-- footer -->
+<footer class="bg-info">
+  <div class="container">
+    <div class="navbar navbar-expand-lg">
+      <h4>VIAJES CHILE</h4>
+      <div class="redes-sociales me-auto">
+        <a href="https://github.com" target="_blank"><i class="fab fa-github-square"></i></a>
+        <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter-square"></i></a>
+        <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+      </div>
+    </div>  
+  </div>    
+</footer>
 
 </body>
 
